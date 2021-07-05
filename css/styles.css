@@ -1,0 +1,149 @@
+#title{
+  background-color: #588da8;
+  color: #fff;
+}
+.container-fluid{
+  padding:3% 15% !important;
+  height: 770px;
+
+}
+#features{
+  padding: 50px 150px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+h1{
+font-family: Montserrat;
+}
+h2{
+  font-family: Ubuntu-Medium500;
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: #393e46;
+}
+/* tittle image */
+
+.rotate{
+  transform: rotate(30deg);
+  width: 70%;
+  margin-left: 50px;
+
+}
+/* navigation bar */
+.navbar{
+  font-family: Ubuntu;
+  font-size: 2.5rem !important ;
+  padding-bottom: 50px !important;
+
+  }
+.happy{
+  padding-left: 0 !important ;
+}
+
+.nav-item{
+  font-size: 1.5rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  margin: 25px;
+}
+.fas{
+  color:#588da8;
+  margin-bottom: 1.2rem;
+}
+.fas:hover{
+  color: blue;
+}
+
+/* testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #588da8;
+  color: #fff;
+
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 20%;
+}
+.carousel-inner{
+  height: 450px;
+
+}
+.carousel-item{
+  padding: 0 200px  ;
+}
+
+
+
+/* press */
+#press{
+  background-color: #588da8;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* carousel */
+.carousel-item{
+  height: 100px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+.btn{
+  margin: 0 10px 0 10px;
+}
+/* cta */
+#cta{
+  background-color: #588da8;
+
+  padding: 100px 250px;
+  text-align: center;
+  color: #fff;
+
+}
+
+
+/* footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+}
+.foot{
+  padding: 0 10px 20px 10px;
+}
+
+@media (max-width:1012px) {
+  #title{
+    text-align: center;
+  }
+  .rotate{
+    position: static;
+    transform: rotate(0deg);
+
+  }
+  #features{
+    position:static;
+    z-index:1;
+
+  }
+}
